@@ -1,0 +1,23 @@
+{
+    "name": "oxygenzsas/composer_lib_swagger",
+    "description": "Un middleware minimaliste pour swagger-ui swagger",
+    "license": "MIT",
+    "keywords": ["swagger","minimalist","PSR-15","swagger-ui", "php", "swagger-ui"],
+    "authors": [
+        {
+            "name": "nvanhaezebrouck",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OxygenzSAS\\Swagger\\" : "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "swagger-api/swagger-ui": "^4.18",
+        "nyholm/psr7": "^1.3",
+        "oxygenzsas/composer_lib_router": "^0.2"
+    }
+}
